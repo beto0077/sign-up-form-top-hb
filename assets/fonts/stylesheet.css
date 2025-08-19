@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Skranji';
+    src: url('Skranji.woff2') format('woff2'),
+        url('Skranji.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Amatic SC';
+    src: url('AmaticSC-Regular.woff2') format('woff2'),
+        url('AmaticSC-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

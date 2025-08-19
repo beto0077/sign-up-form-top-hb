@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Skranji';
+    src: url('./assets/fonts/Skranji.woff2') format('woff2'),
+        url('./assets/fonts/Skranji.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Amatic SC';
+    src: url('./assets/fonts/AmaticSC-Regular.woff2') format('woff2'),
+        url('./assets/fonts/AmaticSC-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+h1 {
+    font-family: 'Skranji', 'Amatic SC', Geneva, Verdana, sans-serif;
+    color: green;
+    text-shadow: 2px 1px black;
+}
