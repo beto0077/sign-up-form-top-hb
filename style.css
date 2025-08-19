@@ -16,8 +16,70 @@
     font-display: swap;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.logo-section, .registration-section {
+    border: 1px solid black;
+}
+
+main {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.logo-section {
+    flex: 30%;
+    height: 100%;
+}
+
+.registration-section {
+    flex: 70%;
+    height: 100%;
+}
+
+.card-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.card-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.card-body {
+    position: absolute;
+    width: 100%;
+    background: black;
+    opacity: 0.6;
+    color: white;
+    text-align: center;
+    top: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body img {
+    width: 45%;
+    max-width: 150px;
+}
+
 h1 {
     font-family: 'Skranji', 'Amatic SC', Geneva, Verdana, sans-serif;
-    color: green;
-    text-shadow: 2px 1px black;
+    color: white;
 }
