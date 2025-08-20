@@ -27,13 +27,17 @@ body {
     height: 100%;
 }
 
-.logo-section, .registration-section {
-    border: 1px solid black;
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #333333;
 }
 
 main {
     display: flex;
     height: 100%;
+    width: 80%;
+    min-width: 959px;
     align-items: center;
 }
 
@@ -82,4 +86,85 @@ main {
 h1 {
     font-family: 'Skranji', 'Amatic SC', Geneva, Verdana, sans-serif;
     color: white;
+}
+
+.registration-section {
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(247, 247, 247);
+}
+
+.form-intro {
+    flex: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 2em;
+    gap: 1em;
+    font-weight: 900;
+
+    span {
+        font-style: italic;
+    }
+}
+
+.form-panel {
+    flex: 30%;
+    background: white;
+    box-shadow: 1px 5px 10px darkgray;
+}
+
+.user-form {
+    height: 100%;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+}
+
+.group-form-elements {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    row-gap: 1em;
+    column-gap: 3em;
+}
+
+.form-element {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+
+    input {
+        border: 1px solid rgb(218, 218, 218);
+        border-radius: 5px;
+        height: 2em;
+    }
+}
+
+.form-actions {
+    flex: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2em;
+    gap: 1em;
+
+    button {
+        width: 30%;
+        height: 15%;
+        background-color: darkgreen;
+        color: white;
+        font-weight: 900;
+        border: none;
+        border-radius: 10px;
+    }
+
+    a {
+        text-decoration: none;
+        color: green;
+        font-weight: 900;
+    }
 }
